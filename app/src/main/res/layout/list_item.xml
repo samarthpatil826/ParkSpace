@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/csname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rowdies_bold"
+            android:text="@string/charging_station_name"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/bookingDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:fontFamily="@font/rowdies_regular"
+            android:layout_below="@+id/csname"/>
+        <TextView
+            android:id="@+id/bookingTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:layout_toEndOf="@+id/bookingDate"
+            android:layout_below="@+id/csname"
+            android:fontFamily="@font/rowdies_regular"
+            android:layout_marginStart="10sp" />
+        <TextView
+            android:id="@+id/bookingDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day"
+            android:layout_toEndOf="@+id/bookingTime"
+            android:layout_below="@+id/csname"
+            android:fontFamily="@font/rowdies_regular"
+            android:layout_marginStart="10sp"
+            />
+    </RelativeLayout>
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:id="@+id/status_text"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:fontFamily="@font/rowdies_regular"
+           android:padding="20dp"
+           android:text="status" />
+   </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btnbg"
+            android:fontFamily="@font/rowdies_regular"
+            android:text="cancel"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "876530897594",
+    "firebase_url": "https://chargingevapp-default-rtdb.firebaseio.com",
+    "project_id": "chargingevapp",
+    "storage_bucket": "chargingevapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876530897594:android:6f537cefc707353e24a883",
+        "android_client_info": {
+          "package_name": "com.example.app4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876530897594-luecbmtnruiokfa1a1rpr937u02sd3l9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app4",
+            "certificate_hash": "2acfcbe31b4f97bbca7d06fc8262aff6fe8c9177"
+          }
+        },
+        {
+          "client_id": "876530897594-8j78hnhne1nmnr17h2q693lmqgdsoir0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHnfaElXZ7NoeiC25IKxobG_KVqzQrjBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876530897594-8j78hnhne1nmnr17h2q693lmqgdsoir0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
